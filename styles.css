@@ -1,0 +1,124 @@
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/299/195/non_2x/violet-purple-white-watercolor-brush-paint-background-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+}
+
+body::before {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+header {
+    color: white;
+    z-index: 1;
+}
+
+.card {
+    transition: transform 0.3s ease;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card-title {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #CBC3E3;
+    border: none;
+    border-radius: 5px;
+    color: #301934;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3 ease;
+}
+
+.btn:hover {
+    background-color: #301934;
+    color: #CBC3E3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn:active{
+    background-color: #301934;
+    color: #CBC3E3;
+    transform: translateY(4px);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+#page-layout {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#page-layout h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #CBC3E3;
+    text-shadow: 2px 2px 4px #301934;
+}
+
+#page-layout h3 {
+    color: #CBC3E3;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 200px;
+    text-shadow: 2px 2px 4px #301934;
+}
+
+#page-layout p {
+    font-size: 1.2rem;
+    color: #CBC3E3;
+    line-height: 1.6;
+    font-weight: 300;
+    margin-left: 200px;
+    text-align: justify;
+    text-shadow: 2px 2px 4px #301934;
+}
+
+#page-layout h5 {
+    font-size: 1.2rem;
+    color: #CBC3E3;
+    line-height: 1.6;
+    font-weight: 300;
+    text-align: justify;
+    text-shadow: 2px 2px 4px #301934;
+}
+
+#page-layout li {
+    font-size: 1.2rem;
+    color: #CBC3E3;
+    line-height: 1.6;
+    font-weight: 300;
+    margin-left: 30px;
+    text-align: justify;
+    text-shadow: 2px 2px 4px #301934;
+}
